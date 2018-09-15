@@ -1,0 +1,18 @@
+{
+  "FOLDER": "./test_data/",
+  "INFO": {
+    "Single_definition": 10000
+  },
+  "INPUT": {
+    "CGI_FILE": "test_CGI.txt",
+    "METHLYATION_FILE": "test_methlyation.txt"
+  },
+  "OUTPUT": {
+    "CGI_MAP": "CGIs_mapped.txt",
+    "CGIs_HIGH": "test_CGIs_high.txt",
+    "CGIs_LOW": "test_CGIs_low.txt",
+    "CGIs_HIGH_SINGLE": "test_CGIs_high_single.txt",
+    "CGIs_LOW_SINGLE": "test_CGIs_low_single.txt",
+    "CGI_PAIRS": "test_pairs_low_high.txt"
+  }
+}

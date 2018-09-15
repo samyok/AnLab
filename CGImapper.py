@@ -1,3 +1,7 @@
+from globals.structs import *  # Make sure you have the globals package!
+from globals.config import *
+
+
 print('\n\n' +
       '=========================================\n'
       ' AnLab CGImapper.py \n' +
@@ -19,11 +23,11 @@ print('\n\n' +
       '=========================================\n'
       )
 
-from globals.structs import *  # Make sure you have the globals package!
+CGI_FILE = folder + config['INPUT']['CGI_FILE']
+METHLY_FILE = folder + config['INPUT']['METHLYATION_FILE']
+OUTPUT_FILE = folder + config['OUTPUT']['CGI_MAP']
 
-CGI_FILE = "test_data/test_CGI.txt"
-METHLY_FILE = "test_data/test_methlyation.txt"
-OUTPUT_FILE = "CGImap.out"
+print(" Using config.json.\n\n")
 
 fcgi = open(CGI_FILE, "r")
 cgi_data = []
