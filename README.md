@@ -1,5 +1,5 @@
-# Fixing Grandi's Perl Scripts
-This is a project undertaken by Samyok Nepal to see if he can fix/update F. Grandi's scripts from a paper she wrote in 2015. 
+# Fixing Perl Scripts
+This is a project undertaken by Samyok Nepal to see if he can fix/update old Perl scripts from a long time ago.
 ## `config.json`
 There should be a `config.json` that ships with this test data, make sure that it is in the same location as the scripts. 
 ## Directories
